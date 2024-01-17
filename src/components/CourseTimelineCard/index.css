@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-duration-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+  .project-duration-content {
+    flex-direction: column;
+  }
+}
+
+.course-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .course-heading {
+    margin-bottom: 0px;
+  }
+}
+
+.clock-image {
+  height: 15px;
+  width: 15px;
+}
+
+.duration-content {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .duration-content {
+    padding: 0px;
+  }
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.tag-name {
+  color: #25262c;
+  background-color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 1.6;
+  padding: 4px 8px;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.list-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}

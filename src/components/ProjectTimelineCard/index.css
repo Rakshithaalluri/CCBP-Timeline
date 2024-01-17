@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-duration-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+  .title-duration-container {
+    flex-direction: column;
+  }
+}
+
+.project-title-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .project-title-heading {
+    margin-bottom: 0px;
+  }
+}
+
+.project-image {
+  height: 300px;
+  width: 90%;
+}
+
+@media screen and (max-width: 576px) {
+  .project-image {
+    height: 150px;
+    width: 100%;
+  }
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.calender-image {
+  height: 15px;
+  width: 15px;
+}
+
+.duration {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 576px) {
+  .description {
+    margin-top: 0px;
+  }
+}
+
+.anchor-link {
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  margin-top: 5px;
+}
